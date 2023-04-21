@@ -8,15 +8,6 @@ import Footer from './components/Footer'
 import ProjectDisplay from './pages/ProjectDisplay';
 
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZX5HV25NTP"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ZX5HV25NTP');
-</script>
-
 function App() {
   return (
     <div className="App">
