@@ -6,6 +6,10 @@ import Experiences from './pages/Experience'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import ProjectDisplay from './pages/ProjectDisplay';
+import ReactGA from "react-ga";
+
+const TRACKING-ID= 'G-ZX5HV25NTP';
+ReactGA.initialize(TRACKING-ID);
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NZYG9J5QY3"></script>
 <script>
